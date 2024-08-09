@@ -1,13 +1,18 @@
 
 import React from 'react';
-import AboutCard from './AboutCard'; 
+import Image from 'react-bootstrap/Image';
+
+
+function ImgLogo() {
+  return <Image src="./logo512.png" fluid />;
+}
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <h1>Bem-vindo ao GPSVotos</h1>
-      <AboutCard /> {/* Exibe o card com informações sobre o projeto */}
-    </div>
+      <ImgLogo />
+     </div>
   );
 };
 

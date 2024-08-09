@@ -1,4 +1,3 @@
-// src/components/Menu.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaUser, FaClipboardList, FaInfoCircle } from 'react-icons/fa';

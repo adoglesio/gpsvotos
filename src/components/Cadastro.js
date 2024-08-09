@@ -130,8 +130,10 @@ const Cadastro = () => {
           ></textarea>
         </div>
 
-        <button type="button" onClick={handleSendToWhatsApp}>Enviar para WhatsApp</button>
-        <button type="button" onClick={handleDownloadTXT}>Baixar TXT</button>
+        <div className='submit-button'>
+          <button variant="button" onClick={handleSendToWhatsApp}>Enviar para WhatsApp</button>
+          <button variant="button" onClick={handleDownloadTXT}>Baixar TXT</button>
+        </div>
       </form>
     </div>
   );

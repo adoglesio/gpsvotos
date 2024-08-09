@@ -1,4 +1,5 @@
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -102,12 +103,18 @@ input, textarea {
   border-radius: 4px;
 }
 
+submit-button{
+  gap:50px;
+  margin:50px;
+  display: flex
+}
+
 button {
   background-color: #007bff;
   color: #fff;
   border: 0;
   padding: 10px 15%;
-  display: flex;
+  display: inline;
   border-radius: 4px;
   cursor: pointer;
 }
